@@ -3,8 +3,7 @@ package pl.designpatterns;
 public class Main {
 
     public static void main(String[] args) {
-        TestedClass.testSimpleSingleton();
-        TestedClass.testTrickyEnumSingleton();
-
+        FlightLeg leg = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").price(50).build();
+        System.out.println(leg);
     }
 }
