@@ -1,10 +1,5 @@
 package pl.designpatterns;
 
-import pl.designpatterns.notify.InternetNews;
-import pl.designpatterns.notify.RadioNews;
-import pl.designpatterns.notify.TvNews;
-import pl.designpatterns.weather.WeatherForecast;
-
 public class Main {
 
     public static void main(String[] args) {
